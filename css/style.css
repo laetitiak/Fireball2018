@@ -1,0 +1,153 @@
+body{
+  font-family: Quicksand, Raleway, Dosis;
+  font-size: 15px;
+  line-height:1.5;
+  padding:0;
+  margin:0;
+  background-color:#fcfcf2;
+}
+
+/* Global*/
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* Header */
+header{
+  background:#4078d1;
+  color:white;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#209346 3px solid;
+  
+}
+
+header a{
+  color: white;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 5px 20px; 
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .current a {
+  color: #209346;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #209346;
+  font-weight:bold;
+}
+
+/* Scores */
+#scores {
+  margin-top: 20px;
+}
+
+#scores .score{
+  float: left;
+  text-align: center;
+  width: 50%;
+  padding-top: 10px;
+
+}
+
+#scores .score .scorebox{
+  display: inline-block;
+  text-align:center;
+  width:80px;
+  height:80px;
+  border-radius: 10px;
+  border: 2px solid;
+  font-size:28px;
+}
+
+#scores .score .scorebox p{
+  margin-top:20px;
+  padding:0;
+}
+
+/* Start button */
+#start button {
+  float:left;
+  position: relative;
+  left: 45%;
+  padding: 0;
+  border: none; 
+  background: none;
+}
+
+#start button img{
+  width: 80px; 
+}
+
+/* gameactions (les buttons pour jouer) */
+#gameactions {
+  margin-top: 20px;
+}
+
+#gameactions .gameaction{
+  float: left;
+  text-align: center;
+  width: 33%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+footer{
+  padding: 3px;
+  margin top: 20px;
+  color:#ffffff;
+  background-color:#4078d1;
+  text-align: center;
+}
+
+
+/**
+.column-container {
+  float: left;
+  border: 1px;
+  border-style: solid;
+  border-width: 2px;
+  width: 10%; /* four containers (use 25% for four, and 50% for two, etc)
+  padding: 5px; /* if you want space between the images
+}
+*/
+
+/**
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+*/
+
+
+
