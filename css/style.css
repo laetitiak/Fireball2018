@@ -9,7 +9,7 @@ body{
 
 /* Global*/
 .container{
-  width: 80%;
+  width: 90%;
   margin: auto;
   overflow: hidden;
 }
@@ -42,13 +42,22 @@ header li{
   padding: 0 20px 5px 20px; 
 }
 
+
 header #branding{
   float: left;
 }
 
+
 header #branding h1 {
-  margin: 0;
+  display:inline;
+  margin: 20px;
 }
+
+header #branding img {
+  width:70px;
+  float: left;
+}
+
 
 header nav {
   float: right;
@@ -119,6 +128,23 @@ header a:hover {
   padding-top: 10px;
   padding-bottom: 10px;
 
+}
+
+#gameactions .gameaction button{
+  background-color: Transparent;
+  border-color: Transparent;
+}
+
+
+
+#gameactions .gameaction button:active {
+  transform: translate(4px,4px);
+  /*transform: rotate(30deg);*/ 
+}
+
+#gameactions .gameaction img{
+  display: block;
+  width: 100px;
 }
 
 footer{
