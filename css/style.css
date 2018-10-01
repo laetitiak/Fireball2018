@@ -155,6 +155,14 @@ footer{
   text-align: center;
 }
 
+.align {
+   list-style: none;
+   text-align: center;
+   float: left;
+
+  
+  }
+
 
 /**
 .column-container {

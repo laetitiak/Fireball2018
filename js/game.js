@@ -44,8 +44,16 @@ function hidestart(){
    document.getElementById("start").style.display = "none";
 }
 
+function showstart(){
+  document.getElementById("start").style.display = "block";
+}
+
 function showbuttons(){
    document.getElementById("gameactions").style.display = "block";
+}
+
+function hidebuttons(){
+  document.getElementById("gameactions").style.display = "none";
 }
 
 function endgame(){
@@ -54,6 +62,8 @@ function endgame(){
     document.getElementById("btncharge1").disabled = true;
     showvariable();
     showscore();
+    showstart();
+    hidebuttons();
 }
 
 function play(actionU1, actionU2) {
